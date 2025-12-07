@@ -28,9 +28,9 @@ API_KEY = userdata.get('YOUTUBE_API_KEY')
 GEMINI_API_KEY = userdata.get('GEMINI_API_KEY')
 
 if API_KEY and GEMINI_API_KEY:
-    print("✅ API Keys loaded successfully from Colab Secrets.")
+    print("API Keys loaded successfully from Colab Secrets.")
 else:
-    print("⚠️ Warning: One or both API keys are missing from Colab Secrets. Using simulated data only.")
+    print("Warning: One or both API keys are missing from Colab Secrets. Using simulated data only.")
 
 import pandas as pd
 import numpy as np
